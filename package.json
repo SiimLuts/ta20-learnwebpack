@@ -1,0 +1,30 @@
+{
+  "name": "learnwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "npm run dev -- --watch"
+    
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiimLuts/ta20-learnwebpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiimLuts/ta20-learnwebpack/issues"
+  },
+  "homepage": "https://github.com/SiimLuts/ta20-learnwebpack#readme",
+  "dependencies": {
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
